@@ -1,0 +1,114 @@
+Script started on Sun May  1 13:02:06 2016
+[?1034hbash-3.2$ exit./graph_test.py 
+
+========================================================
+____ _ _  _ ____ _       ___  ____ ____  _ ____ ____ ___ 
+|___ | |\ | |__| |       |__] |__/ |  |  | |___ |     |  
+|    | | \| |  | |___    |    |  \ |__| _| |___ |___  |
+
+========================================================
+UNDIRECTED GRAPH
+========================================================
+
+Undirected Original Graph:
+A [(A,B,1), (A,C,2), (A,E,4), (A,D,3)]
+C [(A,C,2), (B,C,5), (C,E,7), (C,D,6)]
+B [(A,B,1), (B,C,5)]
+E [(A,E,4), (C,E,7)]
+D [(A,D,3), (C,D,6)]
+
+Number of vertices is 5
+Number of edges is 7
+----------------------------------
+
+BFS Traversal:
+the starting vetrice =  A
+A       None
+B       (A, B, 1)
+C       (A, C, 2)
+E       (A, E, 4)
+D       (A, D, 3)
+----------------------------------
+
+We have Removed Vertex:  D 
+
+After Removing Vertex, Graph is:
+A [(A,B,1), (A,C,2), (A,E,4)]
+C [(A,C,2), (B,C,5), (C,E,7)]
+B [(A,B,1), (B,C,5)]
+E [(A,E,4), (C,E,7)]
+
+Number of vertices is now 4
+Number of edges is 5
+----------------------------------
+
+We have Removed Edge:  (B,C,5) 
+
+After Removing Edge, Graph is:
+A [(A,B,1), (A,C,2), (A,E,4)]
+C [(A,C,2), (C,E,7)]
+B [(A,B,1)]
+E [(A,E,4), (C,E,7)]
+
+Number of vertices is now 4
+Number of edges is 4
+----------------------------------
+
+========================================================
+DIRECTED GRAPH
+========================================================
+
+Directed Original Graph:
+A [(A,B,1), (A,C,2), (A,D,3)]
+C [(C,B,5), (C,D,6), (C,E,7)]
+E [(E,A,4)]
+B []
+D []
+
+Number of vertices is 5
+Number of edges is 7
+----------------------------------
+
+BFS Traversal:
+the starting vetrice =  A
+A       None
+B       (A, B, 1)
+C       (A, C, 2)
+D       (A, D, 3)
+E       (C, E, 7)
+----------------------------------
+
+We have Removed Vertex:  D 
+
+After Removing Vertex, Graph is:
+A [(A,B,1), (A,C,2)]
+C [(C,B,5), (C,E,7)]
+E [(E,A,4)]
+B []
+
+Number of vertices is now 4
+Number of edges is 5
+----------------------------------
+
+We have Removed Edge:  (C,B,5) 
+
+After Removing Edge, Graph is:
+A [(A,B,1), (A,C,2)]
+C [(C,E,7)]
+E [(E,A,4)]
+B []
+
+Number of vertices is now 4
+Number of edges is 4
+----------------------------------
+
+========================================================
+PASSING EMPTY GRAPH (TESTING)
+========================================================
+
+Undirected Original Graph:
+ No Undirected graph exists.
+bash-3.2$ exit
+exit
+
+Script done on Sun May  1 13:02:12 2016

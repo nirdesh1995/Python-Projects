@@ -1,5 +1,4 @@
-# Python-Projects
-
+# Two AI bots play breakthrough against each other 
 
 ## Goal 
 For this lab we have implemented a Python code to play the game of Break-Through using

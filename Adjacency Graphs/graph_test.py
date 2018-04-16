@@ -1,6 +1,6 @@
 #!/Library/Frameworks/Python.framework/Versions/3.5/bin/python3
 
-#  Nirdesh Bhandari & Siddharth Sudeer
+# Siddharth Sudheer & Nirdesh Bhandari
 # Project 3 - Final Project
 
 from graph import Graph
